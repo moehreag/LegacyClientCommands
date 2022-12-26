@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "legacyclientcommands",
+  "version": "${version}",
+  "name": "Legacy Client Commands",
+  "description": "Small Library providing a client-command API, ported from Forge.",
+  "authors": [
+    "moehreag",
+    "Minecraft Forge"
+  ],
+  "contact": {
+    "sources": "https://github.cpm/moehreag/legacyclientcommands"
+  },
+  "license": "LGPL-2.1-only",
+  "icon": "assets/modid/icon.png",
+  "environment": "client",
+  "entrypoints": { },
+  "mixins": [
+    "clientcommands.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.8.9"
+  }
+}
