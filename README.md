@@ -21,9 +21,9 @@ dependencies {
 ```java
 public class YourMod implements ClientModInitializer {
     public void onIntitialize() {
-        ClientCommandRegistry.getInstance().registerCommandnew ClientCommand(){
+        ClientCommandRegistry.getInstance().registerCommand(new ClientCommand(){
             ...
-        };
+        });
     }
 }
 ```
